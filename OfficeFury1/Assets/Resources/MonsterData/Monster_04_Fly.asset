@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45606a7d3b5ed634aaaebd507b852c08, type: 3}
+  m_Name: Monster_04_Fly
+  m_EditorClassIdentifier: 
+  monsterName: PaperMob
+  hp: 20
+  maxhp: 20
+  damage: 1
+  moveSpeed: 3
+  visualPrefab: {fileID: 6205954581719496333, guid: 3708c1a4ad58f36479004b6c7383561c,
+    type: 3}

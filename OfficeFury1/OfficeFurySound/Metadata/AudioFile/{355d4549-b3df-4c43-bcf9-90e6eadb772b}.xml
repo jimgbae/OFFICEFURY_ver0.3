@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{355d4549-b3df-4c43-bcf9-90e6eadb772b}">
+		<property name="assetPath">
+			<value>FIREARM_RTS_Machine_Gun_Model_04_Fire_Single_RR2_mono.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>0.17408163265306123</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{4e32963e-b7c6-4400-838c-9a7cc8d019de}</destination>
+		</relationship>
+	</object>
+</objects>

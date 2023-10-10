@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{f1d1ef07-37f6-4f08-a544-d1271a64d8f9}">
+		<property name="assetPath">
+			<value>glass_smashable_small_break_03.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>1.25</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{4e32963e-b7c6-4400-838c-9a7cc8d019de}</destination>
+		</relationship>
+	</object>
+</objects>

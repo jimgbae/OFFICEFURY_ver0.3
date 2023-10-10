@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{458a8838-aca0-41a5-b235-0e83b329629b}">
+		<property name="assetPath">
+			<value>gas_leak_short_burst_01.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.77833333333333332</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{4e32963e-b7c6-4400-838c-9a7cc8d019de}</destination>
+		</relationship>
+	</object>
+</objects>

@@ -1,0 +1,930 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9145135944839824455
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/BGM/1Stage
+  m_EditorClassIdentifier: 
+  Path: event:/BGM/1Stage
+  Guid:
+    Data1: -2001935350
+    Data2: 1113671651
+    Data3: 1222114718
+    Data4: 1403020907
+  Banks:
+  - {fileID: -5521601724615305218}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 7201362902011090209}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 88615
+--- !u!114 &-8945958107914737794
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Computer_Explosion
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Computer_Explosion
+  Guid:
+    Data1: 776746088
+    Data2: 1214925049
+    Data3: -244489321
+    Data4: -275292499
+  Banks:
+  - {fileID: -1615456128861435250}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 50
+  Length: 1210
+--- !u!114 &-8644239437046143135
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Attack/Flamethrower
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Attack/Flamethrower
+  Guid:
+    Data1: -1528886049
+    Data2: 1229086253
+    Data3: -1882756702
+    Data4: 46800672
+  Banks:
+  - {fileID: -1615456128861435250}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 4497
+--- !u!114 &-6460040166429653119
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Stage/StageSpace
+  m_EditorClassIdentifier: 
+  Name: StageSpace
+  StudioPath: 
+  Min: 0
+  Max: 3
+  Default: 0
+  ID:
+    data1: 4191654524
+    data2: 928747038
+  Type: 2
+  IsGlobal: 0
+  Labels:
+  - 1Stage
+  - 2Stage
+  - 3Stage
+  - BossStage
+  Exists: 1
+--- !u!114 &-6131990994336302963
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/DropItem/Coffee
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/DropItem/Coffee
+  Guid:
+    Data1: -1015273044
+    Data2: 1099976329
+    Data3: 1973259416
+    Data4: -2018346883
+  Banks:
+  - {fileID: 7534089348910687172}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1497
+--- !u!114 &-6093500781078469574
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Voice/Player/Hurt
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Voice/Player/Hurt
+  Guid:
+    Data1: 1786137762
+    Data2: 1252259614
+    Data3: -2047603840
+    Data4: -136536487
+  Banks:
+  - {fileID: -1615456128861435250}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 600
+--- !u!114 &-5521601724615305218
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/BGM.bank
+  m_EditorClassIdentifier: 
+  Path: OfficeFurySound/Build/Desktop/BGM.bank
+  Name: BGM
+  StudioPath: bank:/BGM
+  lastModified: 638325776495814727
+  FileSizes: []
+  Exists: 1
+--- !u!114 &-4627032973568517896
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Attack/OnFire
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Attack/OnFire
+  Guid:
+    Data1: -1863603671
+    Data2: 1232731816
+    Data3: 74055101
+    Data4: -64215747
+  Banks:
+  - {fileID: -1615456128861435250}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 40
+  Length: 4400
+--- !u!114 &-3313218933157702383
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/FootStep/Monster/LittleHumanType
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/FootStep/Monster/LittleHumanType
+  Guid:
+    Data1: -950161154
+    Data2: 1207277529
+    Data3: -858535258
+    Data4: -2102180792
+  Banks:
+  - {fileID: -1615456128861435250}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 40
+  Length: 480
+--- !u!114 &-3134514360798114351
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Voice/Monster/Computer/Moan
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Voice/Monster/Computer/Moan
+  Guid:
+    Data1: 1516870976
+    Data2: 1147945369
+    Data3: -1257253462
+    Data4: -177335778
+  Banks:
+  - {fileID: -1615456128861435250}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 45
+  Length: 1400
+--- !u!114 &-3066861716379979197
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/ActiveItem/Molotov_Throw
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/ActiveItem/Molotov_Throw
+  Guid:
+    Data1: 1794486050
+    Data2: 1080091592
+    Data3: -372019050
+    Data4: 287241488
+  Banks:
+  - {fileID: -1615456128861435250}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 200
+--- !u!114 &-2003021902019224292
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/FootStep/Player
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/FootStep/Player
+  Guid:
+    Data1: -1473393239
+    Data2: 1235748567
+    Data3: -247040327
+    Data4: -1815472751
+  Banks:
+  - {fileID: -1615456128861435250}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 355
+--- !u!114 &-1934407773390224638
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Voice/Monster/Computer/Death
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Voice/Monster/Computer/Death
+  Guid:
+    Data1: -1488167024
+    Data2: 1186058560
+    Data3: 1135203250
+    Data4: -258220151
+  Banks:
+  - {fileID: -1615456128861435250}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 50
+  Length: 1600
+--- !u!114 &-1741191393031365468
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UI/Countdown
+  m_EditorClassIdentifier: 
+  Path: event:/UI/Countdown
+  Guid:
+    Data1: 562051834
+    Data2: 1198258427
+    Data3: -1048770384
+    Data4: 841494665
+  Banks:
+  - {fileID: 7534089348910687172}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 4094
+--- !u!114 &-1615456128861435250
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/SFX.bank
+  m_EditorClassIdentifier: 
+  Path: OfficeFurySound/Build/Desktop/SFX.bank
+  Name: SFX
+  StudioPath: bank:/SFX
+  lastModified: 638325860438451890
+  FileSizes: []
+  Exists: 1
+--- !u!114 &-1316677406815722924
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Voice/Monster/LittleHumanStyle/Death
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Voice/Monster/LittleHumanStyle/Death
+  Guid:
+    Data1: -1813144540
+    Data2: 1091534620
+    Data3: 1398595251
+    Data4: 3028150
+  Banks:
+  - {fileID: -1615456128861435250}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 50
+  Length: 3000
+--- !u!114 &-911102028855600585
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Voice/Player/Death
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Voice/Player/Death
+  Guid:
+    Data1: 1993240017
+    Data2: 1219357282
+    Data3: 1295092907
+    Data4: -682802546
+  Banks:
+  - {fileID: -1615456128861435250}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 908
+--- !u!114 &-701185855132017668
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Attack/Hit
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Attack/Hit
+  Guid:
+    Data1: -19355768
+    Data2: 1136199308
+    Data3: -923112042
+    Data4: -1340186695
+  Banks:
+  - {fileID: -1615456128861435250}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 174
+--- !u!114 &-534352151545240060
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Attack/Reload
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Attack/Reload
+  Guid:
+    Data1: -406341025
+    Data2: 1307267439
+    Data3: 1844375428
+    Data4: -231719300
+  Banks:
+  - {fileID: -1615456128861435250}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3100
+--- !u!114 &-247956572701891370
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/FootStep/Monster/Fly
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/FootStep/Monster/Fly
+  Guid:
+    Data1: 1963437069
+    Data2: 1238088834
+    Data3: -1599615836
+    Data4: -267593389
+  Banks:
+  - {fileID: -1615456128861435250}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 50
+  Length: 1463
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
+  m_Name: FMODStudioCache
+  m_EditorClassIdentifier: 
+  EditorBanks:
+  - {fileID: 6370074044296196776}
+  - {fileID: -5521601724615305218}
+  - {fileID: 1049112658256251292}
+  - {fileID: -1615456128861435250}
+  - {fileID: 7534089348910687172}
+  EditorEvents:
+  - {fileID: -9145135944839824455}
+  - {fileID: -3066861716379979197}
+  - {fileID: -4627032973568517896}
+  - {fileID: -8945958107914737794}
+  - {fileID: 9156363391141661405}
+  - {fileID: -701185855132017668}
+  - {fileID: -6093500781078469574}
+  - {fileID: -2003021902019224292}
+  - {fileID: 590787599277062309}
+  - {fileID: -6131990994336302963}
+  - {fileID: -911102028855600585}
+  - {fileID: -8644239437046143135}
+  - {fileID: -3313218933157702383}
+  - {fileID: 1938755952169244285}
+  - {fileID: 1447408566393468908}
+  - {fileID: 1999210083447201770}
+  - {fileID: -247956572701891370}
+  - {fileID: 6448125026585899599}
+  - {fileID: -1316677406815722924}
+  - {fileID: 7671344235942538637}
+  - {fileID: -3134514360798114351}
+  - {fileID: -534352151545240060}
+  - {fileID: 4711430744048612954}
+  - {fileID: -1934407773390224638}
+  - {fileID: 2944868485721554162}
+  - {fileID: 7413052470650405755}
+  - {fileID: -1741191393031365468}
+  EditorParameters: []
+  MasterBanks:
+  - {fileID: 1049112658256251292}
+  StringsBanks:
+  - {fileID: 6370074044296196776}
+  cacheTime: 638325860438992384
+  cacheVersion: 131608
+--- !u!114 &590787599277062309
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Voice/Monster/LittleHumanStyle/Moan
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Voice/Monster/LittleHumanStyle/Moan
+  Guid:
+    Data1: -2141317205
+    Data2: 1126715729
+    Data3: 161934723
+    Data4: 131246398
+  Banks:
+  - {fileID: -1615456128861435250}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 50
+  Length: 2700
+--- !u!114 &1049112658256251292
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: OfficeFurySound/Build/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 638325860437515973
+  FileSizes: []
+  Exists: 1
+--- !u!114 &1447408566393468908
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/Stage
+  m_EditorClassIdentifier: 
+  Path: snapshot:/Stage
+  Guid:
+    Data1: -210195536
+    Data2: 1116089560
+    Data3: -1097112175
+    Data4: -1938486061
+  Banks:
+  - {fileID: 1049112658256251292}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -6460040166429653119}
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
+--- !u!114 &1938755952169244285
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UI/Confirm
+  m_EditorClassIdentifier: 
+  Path: event:/UI/Confirm
+  Guid:
+    Data1: -1257343330
+    Data2: 1300677092
+    Data3: -88025454
+    Data4: -761627980
+  Banks:
+  - {fileID: 7534089348910687172}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 310
+--- !u!114 &1999210083447201770
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/FootStep/Monster/Spider
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/FootStep/Monster/Spider
+  Guid:
+    Data1: 293020173
+    Data2: 1166910708
+    Data3: 96126085
+    Data4: 986545814
+  Banks:
+  - {fileID: -1615456128861435250}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 50
+  Length: 325
+--- !u!114 &2944868485721554162
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UI/MouseOver
+  m_EditorClassIdentifier: 
+  Path: event:/UI/MouseOver
+  Guid:
+    Data1: -548107210
+    Data2: 1075297170
+    Data3: 451967915
+    Data4: 2021163695
+  Banks:
+  - {fileID: 7534089348910687172}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 40
+--- !u!114 &4711430744048612954
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Voice/Monster/Fly/Moan
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Voice/Monster/Fly/Moan
+  Guid:
+    Data1: 300370064
+    Data2: 1189689847
+    Data3: 1745188260
+    Data4: 294737856
+  Banks:
+  - {fileID: -1615456128861435250}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 50
+  Length: 1300
+--- !u!114 &6370074044296196776
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: OfficeFurySound/Build/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 638325860437535993
+  FileSizes:
+  - Name: 
+    Value: 2312
+  Exists: 1
+--- !u!114 &6448125026585899599
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Voice/Monster/Fly/Hit
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Voice/Monster/Fly/Hit
+  Guid:
+    Data1: 1317072912
+    Data2: 1247959366
+    Data3: -14344566
+    Data4: 110290324
+  Banks:
+  - {fileID: -1615456128861435250}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1338
+--- !u!114 &7201362902011090209
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/1Stage/GameScene
+  m_EditorClassIdentifier: 
+  Name: GameScene
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2812493514
+    data2: 1391925803
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &7413052470650405755
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UI/TimeOver
+  m_EditorClassIdentifier: 
+  Path: event:/UI/TimeOver
+  Guid:
+    Data1: 100221292
+    Data2: 1087368132
+    Data3: -982641488
+    Data4: -2045843401
+  Banks:
+  - {fileID: 7534089348910687172}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3403
+--- !u!114 &7534089348910687172
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/UI.bank
+  m_EditorClassIdentifier: 
+  Path: OfficeFurySound/Build/Desktop/UI.bank
+  Name: UI
+  StudioPath: bank:/UI
+  lastModified: 638325860438992384
+  FileSizes: []
+  Exists: 1
+--- !u!114 &7671344235942538637
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Voice/Monster/Fly/Death
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Voice/Monster/Fly/Death
+  Guid:
+    Data1: -7652311
+    Data2: 1326291839
+    Data3: 1475400593
+    Data4: 1632046310
+  Banks:
+  - {fileID: -1615456128861435250}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 50
+  Length: 4000
+--- !u!114 &9156363391141661405
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/ActiveItem/Molotov_Break
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/ActiveItem/Molotov_Break
+  Guid:
+    Data1: -1661769103
+    Data2: 1272495370
+    Data3: -1576161634
+    Data4: 1452817031
+  Banks:
+  - {fileID: -1615456128861435250}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2018

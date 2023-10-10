@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 359dcd3866a11460fb6598e8519ce017, type: 3}
+  m_Name: BGM-KeyList
+  m_EditorClassIdentifier: 
+  Clips:
+    list:
+    - Key: Stage1
+      Value:
+        Guid:
+          Data1: 683633951
+          Data2: 1105807128
+          Data3: 1028390788
+          Data4: -1458356147
+        Path: event:/BGM/Stage1
+      Params: []
+      ShowInfo: 0
+      GUID: 735c70ab-e586-4776-be84-0e65fcb4d7e2
+    - Key: Stage2
+      Value:
+        Guid:
+          Data1: -934153279
+          Data2: 1074079432
+          Data3: -1371141474
+          Data4: -520915437
+        Path: event:/BGM/Stage2
+      Params: []
+      ShowInfo: 0
+      GUID: 6d25c9f0-c984-4ad3-bac2-872cb3cd653b
+  _cachedSearchClips: []

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{318c446a-1f70-448c-8915-665f992c962e}">
+		<property name="name">
+			<value>Frog_Status</value>
+		</property>
+		<relationship name="folder">
+			<destination>{27fe5071-c2f7-431e-86d5-db8dad7d40b6}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{045b8254-061f-4940-bb5a-79654371f06e}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{045b8254-061f-4940-bb5a-79654371f06e}">
+		<property name="maximum">
+			<value>2</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>
